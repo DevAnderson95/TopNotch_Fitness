@@ -1,0 +1,133 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    color: red;
+    background-color: black;
+
+
+}         
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: gold;
+}
+
+.image-container{
+    display: block;
+    background-image: url(gym-bg2.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    
+    
+    z-index: 1;
+   
+
+}
+
+.image-container2{
+    display: block;
+    background-image: url(gym-bg2.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    
+    
+    z-index: 1;
+   
+
+}
+
+/* Add css for nav bar links */
+/* key css - text-decoration: none */
+a {
+    /* text-decoration: none; */
+    color: white; 
+}
+
+body,html{
+    height: 100%;
+}
+
+
+.login-form{
+    justify-content: center;
+    position: absolute;
+    right: 35%;
+    bottom: 40%;
+    text-align: center;
+    background-color: gold;
+    height: 150px;
+    width: 500px;
+}
+
+
+.main_text{
+    background-color: gold;
+    position: absolute;
+    width: 100%;
+    top: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+
+}
+.main_text2{
+    width: 1000px;
+
+}
+.image_1{
+   
+    height: 70%;
+    
+    border: 30px solid gold;
+    
+    
+
+    }
+
+.div_1{
+    
+    height: 300px;
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+        
+}  
+        
+.my_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    background-size: cover;
+}
+
+.footer{
+    color: black;
+}
+
+
+
+.main-title{
+    position: absolute;
+    font-size: 100px;
+    background-color: gold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.Parent{
+    display: flex;
+    justify-content: center;
+}
